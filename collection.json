@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "0576b4cb-1c7b-4897-87ff-743523e94f72",
+		"name": "Notes API Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39302122"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/notes/note1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"notes",
+						"note1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
